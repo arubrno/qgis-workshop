@@ -8,6 +8,7 @@ Materials for a QGIS workshop.
 
 - [ ] Bring your own laptop.
 - [ ] Install QGIS (version 3.4 and above) <https://qgis.org/download/>.
+- [ ] Register in the AMCR training version <https://amcr-tr.aiscr.cz/>.
 
 ## Programme 
 
