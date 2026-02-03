@@ -8,7 +8,7 @@ Materials for a QGIS workshop.
 ## What you'll need
 
 - [ ] Bring your own laptop.
-- [ ] Install QGIS (version 3.4 and above) <https://qgis.org/download/>.
+- [ ] Install QGIS (version 3.4 and above; **preferably in English**) <https://qgis.org/download/>.
 - [ ] Register in the AMCR training version <https://amcr-tr.aiscr.cz/>.
 
 ## Programme 
@@ -25,9 +25,15 @@ Materials for a QGIS workshop.
 11. Export of a map
 
 ## Useful links & resources
+- Geoviewer ČÚZK  
+  http://ags.cuzk.gov.cz/geoprohlizec
+  
+### Plugins
+- OSM place search
+- Pian Exporter
 
-### Prohlížecí (WMS) vrstvy
-- ZTM 1:5000  
+### View services (WMS)
+- ZTM (Base Topographic Map) 1:5000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM5/MapServer/WMSServer
 - ZTM 1:10000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM10/MapServer/WMSServer
@@ -39,47 +45,47 @@ Materials for a QGIS workshop.
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM100/MapServer/WMSServer
 - ZTM 1:250000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM250/MapServer/WMSServer
-- MČR 1:500000  
+- MČR (Map of the Czech Republic) 1:500000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/MCR500/MapServer/WMSServer
 - MČR 1:1000000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/MCR1M/MapServer/WMSServer
-- Ortofoto  
+- **Ortophoto**  
   https://ags.cuzk.gov.cz/arcgis1/services/ORTOFOTO/MapServer/WMSServer
-- Archivní ortofoto  
+- Archival ortophoto  
   https://geoportal.cuzk.gov.cz/WMS_ORTOFOTO_ARCHIV/WMService.aspx
-- Katastrální mapy  
+- Cadastral map  
   https://services.cuzk.gov.cz/wms/wms.asp
-- Geologická mapa  
+- Geological map  
   https://mapy.geology.cz/arcgis/services/Geologie/geologicka_mapa50/MapServer/WMSServer
-- Oblastní plány rozvoje lesů  
+- Oblastní plány rozvoje lesů (forest development plans)  
   https://geoportal.uhul.cz/wms_oprl/WMService.aspx
-- Půdní typy  
+- Soil types  
   https://mapy.geology.cz/arcgis/services/Pudy/pudni_typy50/MapServer/WmsServer
-- Surovinový informační systém (SurIS)  
+- Mineral information system (SurIS)  
   https://mapy.geology.cz/arcgis/services/Suroviny/loziska_zdroje/MapServer/WFSServer
 
-### Stahovací (WFS) vrstvy
-- Zabaged – polohopis  
+### Download services (WFS)
+- Zabaged – planimetric components  
   https://ags.cuzk.cz/arcgis/services/ZABAGED_POLOHOPIS/MapServer/WFSServer
-- Zabaged – vrstevnice  
+- Zabaged – contours  
   https://ags.cuzk.cz/arcgis/services/ZABAGED_VRSTEVNICE/MapServer/WFSServer
-- Data250  
+- **Data250**  
   https://ags.cuzk.gov.cz/arcgis/services/DATA250/MapServer/WFSServer
 
 ### ArcGIS REST Servers
 - Moravské křižovatky
-- Stabilní katastr  
+  - Stabilní katastr (Franziszeischer Kataster)  
   https://arcgis.cdv.cz/arcgisserver/rest/services/Stabilni_katastr/Stabilni_katastr_I/MapServer  
   https://arcgis.cdv.cz/arcgisserver/rest/services/Stabilni_katastr/Stabilni_katastr_II/MapServer
-- Živé mapy lidar  
-  https://arcgis.cdv.cz/arcgisserver/rest/services/zive_mapy/stin045/MapServer  
+  - Živé mapy lidar  
+  https://arcgis.cdv.cz/arcgisserver/rest/services/zive_mapy/stin045/MapServer (this angle is no longer active)
   https://arcgis.cdv.cz/arcgisserver/rest/services/zive_mapy/stin135/MapServer  
   https://arcgis.cdv.cz/arcgisserver/rest/services/zive_mapy/stin225/MapServer  
   https://arcgis.cdv.cz/arcgisserver/rest/services/zive_mapy/stin315/MapServer
 - NPÚ
-- Chráněná území - kulturní dědictví  
+  - Protected sites - cultural heritage  
   https://geoportal.npu.cz/arcgis/rest/services/INSPIRE/ProtectedSites/MapServer
-- CZ_RETRO  
+  - CZ_RETRO  
   https://geoportal.npu.cz/arcgis/rest/services/CZ_RETRO/
-- ÚAN  
+  - ÚAN (Territories with archaeological findings)  
   https://geoportal.npu.cz/arcgis/rest/services/Tematicke/CP_UAN/MapServer
