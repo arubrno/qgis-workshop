@@ -27,10 +27,18 @@ Materials for a QGIS workshop.
 ## Useful links & resources
 - Geoviewer ČÚZK  
   http://ags.cuzk.gov.cz/geoprohlizec
+- Geodata for EU  
+  https://inspire-geoportal.ec.europa.eu/srv/eng/catalog.search#/home
+- Natural Earth Data  
+  https://www.naturalearthdata.com/
+- GADM (Database of Global Administrative Areas)
+  https://gadm.org/data.html
   
 ### Plugins
+- *Install them in the QGIS Plugin manager*
 - OSM place search
 - Pian Exporter
+- OpenTopography DEM Downloader (requires a free registration at https://portal.opentopography.org/)
 
 ### View services (WMS)
 - ZTM (Base Topographic Map) 1:5000  
