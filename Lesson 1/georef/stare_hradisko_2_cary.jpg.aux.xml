@@ -1,0 +1,61 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="EXIF_BitsPerSample">8 8 8</MDI>
+    <MDI key="EXIF_ColorSpace">65535</MDI>
+    <MDI key="EXIF_DateTime">2025:04:22 10:01:00</MDI>
+    <MDI key="EXIF_ExifVersion">0231</MDI>
+    <MDI key="EXIF_Orientation">1</MDI>
+    <MDI key="EXIF_PhotometricInterpretation">2</MDI>
+    <MDI key="EXIF_PixelXDimension">1200</MDI>
+    <MDI key="EXIF_PixelYDimension">850</MDI>
+    <MDI key="EXIF_ResolutionUnit">2</MDI>
+    <MDI key="EXIF_SamplesPerPixel">3</MDI>
+    <MDI key="EXIF_Software">Adobe Photoshop 25.12 (Windows)</MDI>
+    <MDI key="EXIF_XResolution">(300)</MDI>
+    <MDI key="EXIF_YResolution">(300)</MDI>
+  </Metadata>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="SOURCE_COLOR_SPACE">YCbCr</MDI>
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+    <MDI key="COMPRESSION">JPEG</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">51</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">210.59825545171</MDI>
+      <MDI key="STATISTICS_STDDEV">32.537462282502</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">12</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">206.49601246106</MDI>
+      <MDI key="STATISTICS_STDDEV">34.979456583164</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">26</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">160.62654205607</MDI>
+      <MDI key="STATISTICS_STDDEV">48.511192460726</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
