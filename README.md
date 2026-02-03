@@ -31,7 +31,7 @@ Materials for a QGIS workshop.
   https://inspire-geoportal.ec.europa.eu/srv/eng/catalog.search#/home
 - Natural Earth Data  
   https://www.naturalearthdata.com/
-- GADM (Database of Global Administrative Areas)
+- GADM (Database of Global Administrative Areas)  
   https://gadm.org/data.html
   
 ### Plugins
