@@ -2,7 +2,7 @@
 
 Materials for a QGIS workshop.
 
-- **17. 2. 2026, 10am** small/large hall
+- **17. 2. 2026, 10am** large hall
 - The workshop will be held in Czech, with English interpretation available.
 
 ## What you'll need
