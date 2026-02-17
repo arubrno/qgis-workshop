@@ -44,7 +44,7 @@ Materials for a QGIS workshop.
 ### View services (WMS)
 - ZTM (Base Topographic Map) 1:5000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM5/MapServer/WMSServer
-- ZTM 1:10000  
+- **ZTM 1:10000**  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM10/MapServer/WMSServer
 - ZTM 1:25000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM25/MapServer/WMSServer
