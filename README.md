@@ -39,6 +39,7 @@ Materials for a QGIS workshop.
 - OSM place search
 - Pian Exporter
 - OpenTopography DEM Downloader (requires a free registration at https://portal.opentopography.org/)
+- XYZ Tiles Basemap Loader
 
 ### View services (WMS)
 - ZTM (Base Topographic Map) 1:5000  
