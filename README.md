@@ -2,13 +2,13 @@
 
 Materials for a QGIS workshop.
 
-- **17. 2. 2026, 10am** large hall
+- **15. 10. 2026, 10am** large hall
 - The workshop will be held in Czech, with English interpretation available.
 
 ## What you'll need
 
 - [ ] Bring your own laptop.
-- [ ] Install QGIS (version 3.4 and above; **preferably in English**) <https://qgis.org/download/>.
+- [ ] Install QGIS (preferably version 3.44.x **in English**) <https://qgis.org/download/>.
 - [ ] Register in the AMCR training version <https://amcr-tr.aiscr.cz/>.
 
 ## Programme 
@@ -38,6 +38,7 @@ Materials for a QGIS workshop.
 - *Install them in the QGIS Plugin manager*
 - OSM place search
 - Pian Exporter
+- AMČR Viewer
 - OpenTopography DEM Downloader (requires a free registration at https://portal.opentopography.org/)
 - XYZ Tiles Basemap Loader
 
