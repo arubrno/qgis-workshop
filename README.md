@@ -83,19 +83,13 @@ Materials for a QGIS workshop.
   https://ags.cuzk.gov.cz/arcgis/services/DATA250/MapServer/WFSServer
 
 ### ArcGIS REST Servers
-- Moravské křižovatky
-  - Stabilní katastr (Franziszeischer Kataster)  
-  https://arcgis.cdv.cz/arcgisserver/rest/services/Stabilni_katastr/Stabilni_katastr_I/MapServer  
-  https://arcgis.cdv.cz/arcgisserver/rest/services/Stabilni_katastr/Stabilni_katastr_II/MapServer
-  - Živé mapy lidar  
-  https://arcgis.cdv.cz/arcgisserver/rest/services/zive_mapy/stin045/MapServer (this angle is no longer active)
-  https://arcgis.cdv.cz/arcgisserver/rest/services/zive_mapy/stin135/MapServer  
-  https://arcgis.cdv.cz/arcgisserver/rest/services/zive_mapy/stin225/MapServer  
-  https://arcgis.cdv.cz/arcgisserver/rest/services/zive_mapy/stin315/MapServer
 - NPÚ
   - Protected sites - cultural heritage  
   https://geoportal.npu.cz/arcgis/rest/services/INSPIRE/ProtectedSites/MapServer
   - CZ_RETRO  
   https://geoportal.npu.cz/arcgis/rest/services/CZ_RETRO/
   - ÚAN (Territories with archaeological findings)  
-  https://geoportal.npu.cz/arcgis/rest/services/Tematicke/CP_UAN/MapServer
+  https://geoportaltest.npu.cz/arcgis/rest/services/ISAD/Uzemi_archeologickeho_nalezu_public/MapServer
+
+## Předchozí verze repozitáře
+- [ARÚB interní 02/2026](https://github.com/arubrno/qgis-workshop/tree/arub-interni-02/2026)
