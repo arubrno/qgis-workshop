@@ -1,49 +1,51 @@
-# QGIS Workshop
+# Workshop QGIS
 
-Materials for a QGIS workshop.
+Materiály k workshopu QGIS.
 
-- **15. 10. 2026, 10am** large hall
-- The workshop will be held in Czech, with English interpretation available.
+- **15. 10. 2026, 10:00**, velký sál
+- Workshop proběhne v češtině, k dispozici bude tlumočení do angličtiny.
 
-## What you'll need
+## Co budete potřebovat
 
-- [ ] Bring your own laptop.
-- [ ] Install QGIS (preferably version 3.44.x **in English**) <https://qgis.org/download/>.
-- [ ] Register in the AMCR training version <https://amcr-tr.aiscr.cz/>.
+- [ ] Vlastní notebook.
+- [ ] Nainstalovaný QGIS (nejlépe verze 3.44.x **v angličtině**)
+  <https://qgis.org/download/>.
+- [ ] Registraci ve školicí verzi AMČR <https://amcr-tr.aiscr.cz/>.
 
-## Programme 
+## Program
 
-1. Intro & opening (What is your experience with GIS? What do you expect to learn?)
-3. A bit of theory (vector and raster data, CRS etc.)
-4. QGIS interface
-5. Projects in QGIS
-6. Data and datasources (WMS etc.)
-7. Working with layers
-8. Georeferencing
-9. Importing data from AMCR
-10. Exporting data in AMCR format (creating PIANs)
-11. Export of a map
+1. Úvod a zahájení (Jaké máte zkušenosti s GIS? Co se chcete naučit?)
+3. Trochu teorie (vektorová a rastrová data, souřadnicové systémy atd.)
+4. Rozhraní QGIS
+5. Projekty v QGIS
+6. Data a datové zdroje (WMS atd.)
+7. Práce s vrstvami
+8. Georeferencování
+9. Import dat z AMČR
+10. Export dat ve formátu AMČR (tvorba PIANů)
+11. Export mapy
 
-## Useful links & resources
-- Geoviewer ČÚZK  
+## Užitečné odkazy a zdroje
+- Geoprohlížeč ČÚZK  
   http://ags.cuzk.gov.cz/geoprohlizec
-- Geodata for EU  
+- Geodata pro EU  
   https://inspire-geoportal.ec.europa.eu/srv/eng/catalog.search#/home
 - Natural Earth Data  
   https://www.naturalearthdata.com/
-- GADM (Database of Global Administrative Areas)  
+- GADM (databáze administrativních celků světa)  
   https://gadm.org/data.html
   
-### Plugins
-- *Install them in the QGIS Plugin manager*
+### Zásuvné moduly
+- *Instalujte je ve správci zásuvných modulů QGIS (Plugin manager)*
 - OSM place search
 - Pian Exporter
 - AMČR Viewer
-- OpenTopography DEM Downloader (requires a free registration at https://portal.opentopography.org/)
+- OpenTopography DEM Downloader (vyžaduje bezplatnou registraci na
+  https://portal.opentopography.org/)
 - XYZ Tiles Basemap Loader
 
-### View services (WMS)
-- ZTM (Base Topographic Map) 1:5000  
+### Prohlížecí služby (WMS)
+- ZTM (Základní topografická mapa) 1:5000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM5/MapServer/WMSServer
 - **ZTM 1:10000**  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM10/MapServer/WMSServer
@@ -55,40 +57,40 @@ Materials for a QGIS workshop.
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM100/MapServer/WMSServer
 - ZTM 1:250000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/ZTM250/MapServer/WMSServer
-- MČR (Map of the Czech Republic) 1:500000  
+- MČR (Mapa České republiky) 1:500000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/MCR500/MapServer/WMSServer
 - MČR 1:1000000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/MCR1M/MapServer/WMSServer
-- **Ortophoto**  
+- **Ortofoto**  
   https://ags.cuzk.gov.cz/arcgis1/services/ORTOFOTO/MapServer/WMSServer
-- Archival ortophoto  
-  https://geoportal.cuzk.gov.cz/WMS_ORTOFOTO_ARCHIV/WMService.aspx
-- Cadastral map  
+- Archivní ortofoto  
+  https://geoportal.cuzk.gov.cz/WMS_ORTOFOTO_ARCHIV/WMService.aspx?
+- Katastrální mapa  
   https://services.cuzk.gov.cz/wms/wms.asp
-- Geological map  
+- Geologická mapa  
   https://mapy.geology.cz/arcgis/services/Geologie/geologicka_mapa50/MapServer/WMSServer
-- Oblastní plány rozvoje lesů (forest development plans)  
-  https://geoportal.uhul.cz/wms_oprl/WMService.aspx
-- Soil types  
+- Oblastní plány rozvoje lesů  
+  https://geoportal.nli.gov.cz/wms_oprl/WMService.aspx
+- Půdní typy  
   https://mapy.geology.cz/arcgis/services/Pudy/pudni_typy50/MapServer/WmsServer
-- Mineral information system (SurIS)  
+
+### Stahovací služby (WFS)
+- ZABAGED – polohopis  
+  https://ags.cuzk.cz/arcgis/services/ZABAGED_POLOHOPIS/MapServer/WFSServer
+- ZABAGED – vrstevnice  
+  https://ags.cuzk.cz/arcgis/services/ZABAGED_VRSTEVNICE/MapServer/WFSServer
+- **Data50**  
+  https://ags.cuzk.gov.cz/arcgis/services/DATA50/MapServer/WFSServer
+- Surovinový informační systém (SurIS)  
   https://mapy.geology.cz/arcgis/services/Suroviny/loziska_zdroje/MapServer/WFSServer
 
-### Download services (WFS)
-- Zabaged – planimetric components  
-  https://ags.cuzk.cz/arcgis/services/ZABAGED_POLOHOPIS/MapServer/WFSServer
-- Zabaged – contours  
-  https://ags.cuzk.cz/arcgis/services/ZABAGED_VRSTEVNICE/MapServer/WFSServer
-- **Data250**  
-  https://ags.cuzk.gov.cz/arcgis/services/DATA250/MapServer/WFSServer
-
-### ArcGIS REST Servers
+### Servery ArcGIS REST
 - NPÚ
-  - Protected sites - cultural heritage  
+  - Chráněná území – kulturní dědictví  
   https://geoportal.npu.cz/arcgis/rest/services/INSPIRE/ProtectedSites/MapServer
   - CZ_RETRO  
   https://geoportal.npu.cz/arcgis/rest/services/CZ_RETRO/
-  - ÚAN (Territories with archaeological findings)  
+  - ÚAN (území s archeologickými nálezy)  
   https://geoportaltest.npu.cz/arcgis/rest/services/ISAD/Uzemi_archeologickeho_nalezu_public/MapServer
 
 ## Předchozí verze repozitáře
