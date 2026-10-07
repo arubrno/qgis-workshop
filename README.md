@@ -3,7 +3,6 @@
 Materiály k workshopu QGIS.
 
 - **15. 10. 2026, 10:00**, velký sál
-- Workshop proběhne v češtině, k dispozici bude tlumočení do angličtiny.
 
 ## Co budete potřebovat
 
