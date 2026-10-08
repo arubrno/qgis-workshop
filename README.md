@@ -14,15 +14,15 @@ Materiály k workshopu QGIS.
 ## Program
 
 1. Úvod a zahájení (Jaké máte zkušenosti s GIS? Co se chcete naučit?)
-3. Trochu teorie (vektorová a rastrová data, souřadnicové systémy atd.)
-4. Rozhraní QGIS
-5. Projekty v QGIS
-6. Data a datové zdroje (WMS atd.)
-7. Práce s vrstvami
+2. Trochu teorie (vektorová a rastrová data, souřadnicové systémy atd.)
+3. Rozhraní QGIS
+4. Projekty v QGIS
+5. Data a datové zdroje (WMS atd.)
+6. Práce s vrstvami
+7. Import dat z AMČR
 8. Georeferencování
-9. Import dat z AMČR
-10. Export dat ve formátu AMČR (tvorba PIANů)
-11. Export mapy
+9. Export dat ve formátu AMČR (tvorba PIANů)
+10. Export mapy
 
 ## Užitečné odkazy a zdroje
 - Geoprohlížeč ČÚZK  
