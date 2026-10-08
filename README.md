@@ -13,16 +13,55 @@ Materiály k workshopu QGIS.
 
 ## Program
 
-1. Úvod a zahájení (Jaké máte zkušenosti s GIS? Co se chcete naučit?)
-2. Trochu teorie (vektorová a rastrová data, souřadnicové systémy atd.)
-3. Rozhraní QGIS
-4. Projekty v QGIS
-5. Data a datové zdroje (WMS atd.)
-6. Práce s vrstvami
-7. Import dat z AMČR
-8. Georeferencování
-9. Export dat ve formátu AMČR (tvorba PIANů)
-10. Export mapy
+**10:00 \- 10:15 Úvod a organizace (Zuzana Kopáčová, Tomáš Pavloň)**
+
+- Průběh workshopu
+
+
+**10:15 \- 10:45 Teorie (Petr Pajdla)**
+
+- Úvod do kartografie a geoinformatiky
+- Koordinátové systémy
+- Vektory, rastry 
+
+**10:45 \- 11:30 Základy QGIS (David Spáčil)**
+
+- Základní orientace v aplikaci QGIS
+- Založení projektu
+- Podkladové vrstvy
+
+**11:30 \- 11:35 Pauza na kávu**
+
+**11:35 \- 12:30 Tvorba vektorů (David Spáčil)**
+
+- Tvorba bodů, linií, polygonů
+- Zásuvný modul AMČR Viewer a import dat
+- Export jednoduché mapy
+
+**12:30 \- 13:30 Obědová pauza (a volitelná návštěva prodejní výstavy literatury)**
+
+**13:30 \- 14:30 Mapové výstupy pro publikaci (David Spáčil)**
+
+- Vytvoření pokročilého mapového výstupu
+- Přidávání prvků
+
+**14:30 \- 14:35 Pauza na kávu**
+
+**14:35 \- 15:00 Georeferencování (Tomáš Pavloň)**
+
+- Georeferencování rastrových vstupů (stavební plány, staré mapy, letecké fotografie)
+
+**15:00 \- 15:45 Vzorový projekt (Tomáš Pavloň)**
+
+- Praktická aplikace získaných znalostí na modelovém příkladu
+- Tvorba mapového výstupu \- přehled archeologických lokalit v blízkosti zamýšlené liniové stavby
+- V případě dostatku času práce na vlastním zamýšleném projektu
+
+**15:45 \- 16:00 Závěr**
+
+- Tipy a triky, doporučení
+- Dotazy
+- Uzavření workshopu
 
 ## Užitečné odkazy a zdroje
 - Geoprohlížeč ČÚZK  
