@@ -26,6 +26,8 @@ Materiály k workshopu QGIS.
 
 **10:45 \- 11:30 Základy QGIS (David Spáčil)**
 
+> návod k této části workshopu je dostupný
+> [zde](https://github.com/arubrno/qgis-workshop/blob/main/Part%202/cheat/README.md)
 - Základní orientace v aplikaci QGIS
 - Založení projektu
 - Podkladové vrstvy
