@@ -143,14 +143,14 @@ GeoPackage (`.gpkg`) je jeden soubor, do kterého se vejde libovolný počet
 vrstev. Všechno, co vytvoříme, poputuje do něj.
 
 1. **Layer → Create Layer → New GeoPackage Layer…** (`Ctrl+Shift+N`).
-2. **Database**: tlačítkem `…` zvolte svou pracovní složku a název
+2. **File name**: tlačítkem `…` zvolte svou pracovní složku a název
    `workshop.gpkg`.
 3. **Table name**: `sondy`.
 4. **Geometry type**: **Polygon**.
 5. CRS: `EPSG:5514`.
 6. V části **New Field**:
    - **Name**: `c_sondy`,
-   - **Type**: **Text Data**,
+   - **Type**: **Text (string)**,
    - klikněte na **Add to Fields List**. Pole se objeví v seznamu dole.
 7. **OK**. Vrstva `sondy` se přidá do projektu (zatím prázdná).
 8. 💾
@@ -213,7 +213,7 @@ bodům. Na to slouží **snapping**.
 
 > **Spletli jste se?** Během kreslení vrací `Backspace` poslední bod,
 > `Esc` zruší celý polygon. Hotový polygon smažete nástrojem **Select
-> Features** (klik na polygon) a klávesou `Delete`.
+> Feature(s)** (klik na polygon) a klávesou `Delete`.
 
 ### Krok 7 – styl sond
 
@@ -224,7 +224,7 @@ bodům. Na to slouží **snapping**.
    `#ff9036` a posuvník **Opacity** dejte na `30 %`.
 4. **Stroke color**: `#ff8d30`, opacity `100 %`.
 5. **Stroke width**: `0,46` mm.
-6. **Fill style** i **Stroke style**: **Solid**.
+6. **Fill style**: **Solid**, **Stroke style**: **Solid Line**.
 7. **OK**.
 
 ### Krok 8 – popisky sond
@@ -283,7 +283,7 @@ GeoPackage.
 1. V panelu Layers označte se `Ctrl` vrstvy `keramika`, `kosti`, `kovy`
    (ty z CSV).
 2. Pravé tlačítko → **Group Selected**. Skupinu přejmenujte (pravé
-   tlačítko → **Rename Group** nebo `F2`) na `csv` a skryjte ji.
+   tlačítko → **Rename** nebo `F2`) na `csv` a skryjte ji.
 3. Stejně seskupte `nalezy_keramika`, `nalezy_kosti`, `nalezy_kovy` do
    skupiny `nalezy`.
 
@@ -307,7 +307,7 @@ Pro každou vrstvu ve skupině `nalezy`:
 ### Krok 13 – vrstva `trasa`
 
 1. **Layer → Create Layer → New GeoPackage Layer…**.
-2. **Database**: opět váš `workshop.gpkg`.
+2. **File name**: opět váš `workshop.gpkg`.
 3. **Table name**: `trasa`, **Geometry type**: **LineString**, CRS
    `EPSG:5514`. Žádná pole přidávat nemusíte.
 4. **OK**.
@@ -381,7 +381,7 @@ a `AMCR_Akce_polygony`.
 2. Nahoře přepněte **Single Symbol** na **Categorized**.
 3. **Value**: pole `hlavni_typ`.
 4. **Symbol**: klikněte na náhled symbolu a v knihovně stylů dole
-   vyberte **hash black /**. Struktura symbolu bude:
+   vyberte **hashed black /**. Struktura symbolu bude:
 
    ```
    Fill
@@ -486,7 +486,7 @@ v krocích 28–30.
 2. V **Item Properties**:
    - **Map**: hlavní mapa (`Map 1`),
    - **Segments**: vpravo `3`, vlevo `0`,
-   - **Fixed width**: hodnota, se kterou vyjde měřítko na celou šířku
+   - **Fixed Width**: hodnota, se kterou vyjde měřítko na celou šířku
      levého pruhu (v hotovém řešení `50` m),
    - **Font**: **Bold**, velikost `10`.
 
@@ -503,7 +503,7 @@ když je v hlavním okně QGIS skryjete.
 Vraťte se do hlavního okna QGIS.
 
 1. **Layer → Create Layer → New GeoPackage Layer…**:
-   - **Database**: váš `workshop.gpkg`,
+   - **File name**: váš `workshop.gpkg`,
    - **Table name**: `stare_hradisko_bod`,
    - **Geometry type**: **Point**, CRS `EPSG:5514`,
    - **OK** a na dotaz zvolte **Add New Layer** (ne Overwrite!).
