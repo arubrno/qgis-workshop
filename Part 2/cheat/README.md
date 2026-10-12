@@ -29,10 +29,10 @@ Save As…".
 ## Příprava dat
 
 1. Stáhněte si repozitář workshopu:
-   <https://github.com/arubrno/qgis-workshop> → zelené tlačítko **Code →
-   Download ZIP**.
-2. ZIP rozbalte, např. do složky `Dokumenty`.
-3. Ve složce `Part 2` najdete vstupní data:
+   <https://github.com/arubrno/qgis-workshop/archive/refs/heads/part-2-trasa-navod.zip>
+   a ZIP rozbalte, např. do složky `Dokumenty`.
+   - Případně v terminálu zadejte `git clone https://github.com/arubrno/qgis-workshop`.
+2. Ve složce `Part 2` najdete vstupní data:
    - `sondy_XY.txt` – lomové body sond zaměřené totální stanicí,
    - `keramika.csv`, `kosti.csv`, `kovy.csv` – zaměřené nálezy.
 
@@ -134,8 +134,8 @@ označení sondy a pořadí bodu, oddělené mezerou.
    vidět body na louce u Starého Hradiska.
 
 > **Body se neobjevily, nebo jsou jinde?** Nejčastěji je špatně Geometry
-> CRS. Vrstvu odeberte (pravé tlačítko → **Remove Layer…**) a importujte
-> znovu.
+> CRS nebo prohozené hodnoty v polích `X` a `Y`. Vrstvu odeberte (pravé
+> tlačítko → **Remove Layer…**) a importujte znovu.
 
 ### Krok 4 – nový GeoPackage s vrstvou `sondy`
 
@@ -369,11 +369,9 @@ Plugin přidá tři dočasné vrstvy: `AMCR_Akce_body`, `AMCR_Akce_linie`
 a `AMCR_Akce_polygony`.
 
 1. Body a linie odeberte: pravé tlačítko → **Remove Layer…**.
-2. Polygony exportujte jako v kroku 10: **Export → Save Features As…**,
-   **GeoPackage**, váš `workshop.gpkg`, **Layer name**
-   `amcr_akce_polygony`.
-3. Původní dočasnou vrstvu polygonů odeberte, v projektu nechte jen tu
-   z geopackage. 💾
+2. Vrstu s polygony uložte pomocí **Make Permanent...**, dále postupujte
+   jako při exportu: **GeoPackage**, váš `workshop.gpkg`, **Layer name**
+   `amcr_akce_polygony`. 💾
 
 ### Krok 18 – kategorizovaný styl
 
@@ -396,7 +394,7 @@ a `AMCR_Akce_polygony`.
 1. Ve stromu symbolu klikněte na položku **Line** (pod **Line Pattern
    Fill**).
 2. **Opacity**: `50 %`.
-3. Vraťte se o úroveň výš (šipka zpět) a klikněte na **Classify**.
+3. Potvrďte pomocí `Ok` a klikněte na **Classify**.
    Každý typ akce dostane vlastní barvu se stejnou šrafou.
 4. V seznamu nechte jen **plošný odkryv** a **průzkum detektorem kovu**.
    Ostatní kategorie (včetně poslední prázdné „all other values")
@@ -468,8 +466,7 @@ V **Item Properties** legendy → **Fonts and Text Formatting**:
 
 1. **Add Item → Add Map** a natáhněte malý obdélník pod legendu.
 2. V **Item Properties** nastavte **Scale** na `8000000`.
-3. Nástrojem **Move Item Content** (`C`) posuňte obsah tak, aby byla
-   vidět celá Česká republika.
+3. Nástrojem **Move Item Content** (`C`) posuňte obsah.
 
 Zatím minimapa ukazuje stejné vrstvy jako hlavní mapa – opravíme to
 v krocích 28–30.
