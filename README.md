@@ -101,6 +101,8 @@ Materiály k workshopu QGIS.
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/MCR500/MapServer/WMSServer
 - MČR 1:1000000  
   https://ags.cuzk.gov.cz/arcgis1/services/ZTM/MCR1M/MapServer/WMSServer
+- **Digitální model reliéfu 5G**  
+  https://ags.cuzk.gov.cz/arcgis2/services/dmr5g/ImageServer/WMSServer?
 - **Ortofoto**  
   https://ags.cuzk.gov.cz/arcgis1/services/ORTOFOTO/MapServer/WMSServer
 - Archivní ortofoto  
