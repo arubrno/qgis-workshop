@@ -1,3 +1,8 @@
 **/desktop.ini
 *.gpkg-wal
 *.gpkg-shm
+
+.quarto/
+
+/.quarto/
+**/*.quarto_ipynb
