@@ -1,6 +1,6 @@
 # Figures for Part 1 slides (Úvod do GIS)
-# Run from the repository root:  Rscript "Part 1/R/figures.R"
-# Output: Part 1/img/*.png
+# Run from the repository root:  Rscript part1/R/figures.R
+# Output: part1/img/*.png
 
 library(sf)
 library(terra)
@@ -9,7 +9,7 @@ library(patchwork)
 library(HistData)
 library(giscoR)
 
-out <- file.path("Part 1", "img")
+out <- file.path("part1", "img")
 dir.create(out, showWarnings = FALSE)
 
 save_fig <- function(p, name, w = 10, h = 5.625) {
@@ -26,7 +26,7 @@ col <- c(
 # John Snow ---------------------------------------------------------------
 
 # 1) original map without the legend (guessing game)
-snow <- jpeg::readJPEG(file.path("Part 1", "01snow.jpg"))
+snow <- jpeg::readJPEG(file.path("part1", "01snow.jpg"))
 snow <- if (length(dim(snow)) == 3) snow[-(1:70), , ] else snow[-(1:70), ]
 png::writePNG(snow, file.path(out, "snow-cropped.png"))
 

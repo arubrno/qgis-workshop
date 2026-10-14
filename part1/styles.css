@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --r-main-font: "Alegreya Sans", sans-serif;
+  --r-heading-font: "Alegreya Sans", sans-serif;
+}
+
+.reveal .footer,
+.reveal .slide-number {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.reveal table {
+  width: 100%;
+  font-size: 0.8em;
+}
+.reveal table td:nth-child(3) {
+  white-space: nowrap;
+}

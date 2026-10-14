@@ -1,7 +1,0 @@
-.reveal table {
-  width: 100%;
-  font-size: 0.8em;
-}
-.reveal table td:nth-child(3) {
-  white-space: nowrap;
-}

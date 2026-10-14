@@ -345,5 +345,5 @@ Rozlišovat: *Set Layer CRS* (jen opravím „nálepku") vs. *Reproject / Export
 - Geocentrické a lokální datum: R. Lovelace, J. Nowosad, J. Muenchow:
   *Geocomputation with R* (CC BY-NC-ND 4.0).
 - Ostatní obrázky a smyšlená krajina: vlastní, skript
-  [`Part 1/R/figures.R`](https://github.com/arubrno/qgis-workshop/blob/main/Part%201/R/figures.R).
+  [`part1/R/figures.R`](https://github.com/arubrno/qgis-workshop/blob/main/part1/R/figures.R).
 - Hranice ČR a států: © EuroGeographics (GISCO, balík `giscoR`).

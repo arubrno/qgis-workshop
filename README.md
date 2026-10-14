@@ -21,7 +21,7 @@ Materiály k workshopu QGIS.
 **10:15 \- 10:45 Teorie (Petr Pajdla)**
 
 > prezentace je dostupná
-> [zde](https://arubrno.github.io/qgis-workshop/Part%201/)
+> [zde](https://arubrno.github.io/qgis-workshop/part1/)
 
 - Úvod do kartografie a geoinformatiky
 - Koordinátové systémy

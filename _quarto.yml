@@ -2,4 +2,4 @@ project:
   type: default
   output-dir: docs
   render:
-    - "Part 1/index.qmd"
+    - part1/index.qmd
