@@ -10,10 +10,6 @@ Materiály k workshopu QGIS.
 - [ ] Nainstalovaný QGIS (nejlépe verze 3.44.x **v angličtině**)
   <https://qgis.org/download/>.
 - [ ] Registraci ve školicí verzi AMČR <https://amcr-tr.aiscr.cz/>.
-<<<<<<< HEAD
-- [ ] Bavit se
-=======
->>>>>>> f1f4bc93d89d51efc72291d9760bd4f44e7c01f6
 
 ## Program
 
